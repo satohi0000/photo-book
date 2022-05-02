@@ -179,6 +179,17 @@ select {
   width: 100%;
 }
 
+.l-contents_main_title {
+  background-repeat: no-repeat;
+  /* 画像の繰り返しを指定  */
+  width: 160px;
+  /* 横幅のサイズを指定    */
+}
+
+.l-contents_main_title img {
+  max-width: 100%;
+}
+
 .l-contents_main_picture {
   background-image: url(../カンプ/img/mainvisual.jpg);
   /* 画像のURLを指定       */

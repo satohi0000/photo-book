@@ -1,10 +1,19 @@
 .l-contents {
   width: 100%;
-  &_main_picture {
-    background-image: url(../カンプ/img/mainvisual.jpg); /* 画像のURLを指定       */
-    background-repeat: no-repeat; /* 画像の繰り返しを指定  */
-    width: auto; /* 横幅のサイズを指定    */
-    height: 400px;
+  &_main {
+    &_title {
+      background-repeat: no-repeat; /* 画像の繰り返しを指定  */
+      width: 160px; /* 横幅のサイズを指定    */
+      img {
+        max-width: 100%;
+      }
+    }
+    &_picture {
+      background-image: url(../カンプ/img/mainvisual.jpg); /* 画像のURLを指定       */
+      background-repeat: no-repeat; /* 画像の繰り返しを指定  */
+      width: auto; /* 横幅のサイズを指定    */
+      height: 400px;
+    }
   }
 
   &_main_article {

@@ -181,7 +181,7 @@ body {
 }
 
 .l-contents_main_title {
-  margin: 18px 0 15px 0;
+  margin: 60px 0 15px 0;
   background-repeat: no-repeat;
   /* 画像の繰り返しを指定  */
   width: 160px;
@@ -202,9 +202,14 @@ body {
 }
 
 .l-contents_main_INDEX {
-  padding: 0 200px;
-  margin: 60px 0;
+  max-width: 600px;
+  margin: 60px auto;
   background-color: #ffffff;
+}
+
+.l-contents_main_INDEX_bg {
+  max-width: 1000px;
+  background: white;
 }
 
 .l-contents_main_INDEX h2 {
@@ -212,6 +217,7 @@ body {
   font-family: Arial;
   font-size: 18px;
   font-weight: bold;
+  width: 13.4px;
 }
 
 .l-contents_main_INDEX ul {
